@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel TRV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4c3755dcfe.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="" type="image/png">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="head-top">
+            <div class="site name">
+                <span>GREEKPROBIN</span>
+            </div>
+            <div class="site now">
+                <span id="nav-btn">MENU<i class="fa fa-bars" aria-hidden="true"></i>
+                </span>
+            </div>
+        </div>
+        <div class="head-bottom Flex">
+            <h2>
+                NICE AND COMFORTABLE PLACE TO STAY
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus vel culpa laudantium obcaecati
+                enim iusto possimus, repellat porro sit ad ipsum saepe rem, esse voluptas nostrum neque, quia aut
+                corporis? Porro impedit eveniet labore!</p>
+            <button type="button" class="head-btn">GET STARTED</button>
+        </div>
+    </header>
+    <div class="sidenav" id="sidenav">
+        <span class="cancel-btn" id="cancel-btn">
+            <i class="fas fa times"></i>
+        </span>
+        <ul class="navbar">
+            <li><a href="#header">home</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#rooms">rooms</a></li>
+            <li><a href="#customers">customers</a></li>
+        </ul>
+        <button class="btn sing-up">sign up</button>
+        <button class="btn log-in">log in</button>
+    </div>
+
+
+    <div id="modal"></div>
+
+
+
+    <section class="services sec-width" id="services">
+        <div class="title">
+            <h2>services</h2>
+        </div>
+        <div class="services-container">
+
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-utensils"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Food Service/ Food Runner</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eaque atque blanditiis id hic esse animi libero dignissimos, rem cumque ullam tempora sequi quasi asperiores doloribus praesentium soluta optio deserunt quisquam error! Amet, itaque inventore! Nisi cupiditate quaerat amet eaque?</p>
+                <button type="button" class="btn">Know More</button>
+                </div>
+            </article>
+
+            
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-swimming-pool"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Resfreshment</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eaque atque blanditiis id hic esse animi libero dignissimos, rem cumque ullam tempora sequi quasi asperiores doloribus praesentium soluta optio deserunt quisquam error! Amet, itaque inventore! Nisi cupiditate quaerat amet eaque?</p>
+                <button type="button" class="btn">Know More</button>
+                </div>
+            </article>
+
+
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-broom"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Housekeeping</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eaque atque blanditiis id hic esse animi libero dignissimos, rem cumque ullam tempora sequi quasi asperiores doloribus praesentium soluta optio deserunt quisquam error! Amet, itaque inventore! Nisi cupiditate quaerat amet eaque?</p>
+                <button type="button" class="btn">Know More</button>
+                </div>
+            </article>
+
+
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-door-closed"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Room Security</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eaque atque blanditiis id hic esse animi libero dignissimos, rem cumque ullam tempora sequi quasi asperiores doloribus praesentium soluta optio deserunt quisquam error! Amet, itaque inventore! Nisi cupiditate quaerat amet eaque?</p>
+                <button type="button" class="btn">Know More</button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+<div class="book">
+    <form class="book-form">
+        <div class="form-item">
+            <label for="checkin-date">Check In Date:</label>
+            <input type="date" id="checkin-date">
+        </div>
+        <div class="form-item">
+            <label for="checkout-date">Check Out Date:</label>
+            <input type="date" id="checkout-date">
+        </div>
+        <div class="form-item">
+            <label for="adult">Adults:</label>
+            <input type="number" min="1" value="1" id="adult">
+        </div>
+        <div class="form-item">
+            <label for="children">Children:</label>
+            <input type="number" min="1" value="1" id="children">
+        </div>
+        <div class="form-item">
+            <label for="rooms">Rooms:</label>
+            <input type="number" min="1" value="1" id="rooms">
+        </div>
+        <div class="form-item">
+            <input type="submit" class="btn" value="Book Now">
+        </div>
+    </form>
+</div>
+
+<section class="rooms sec-width" id="rooms">
+    <div class="title">
+        <h2>rooms</h2>
+    </div>
+    <div class="rooms-container">
+
+        <article class="room">
+            <div class="room-image">
+                <img src="images/room1.jpg" alt="room image">
+            </div>
+            <div class="room-text">
+                <h3>Luxury Rooms</h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                    <li>
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                    <li>
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta reiciendis corrupti officiis accusamus rem, porro a hic neque enim quidem libero molestias, fuga voluptatibus quasi fugit nobis quis eaque, facere blanditiis ab iusto voluptatem. Libero necessitatibus dignissimos voluptates error laudantium!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam tempore ex earum quos aliquid esse sequi illo. Officiis explicabo iusto exercitationem eaque quae non, quia illum, voluptate nihil ipsum officia.</p>         
+                 <p class="rate">
+                    <span>$90.00 /</span> Per Night
+                 </p>
+                 <button type="button" class="btn">book now</button>
+            </div>
+        </article>
+
+
+        <article class="room">
+            <div class="room-image">
+                <img src="images/room2.jpg" alt="room image">
+            </div>
+            <div class="room-text">
+                <h3>Luxury Rooms</h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                    <li>
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                    <li>
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta reiciendis corrupti officiis accusamus rem, porro a hic neque enim quidem libero molestias, fuga voluptatibus quasi fugit nobis quis eaque, facere blanditiis ab iusto voluptatem. Libero necessitatibus dignissimos voluptates error laudantium!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam tempore ex earum quos aliquid esse sequi illo. Officiis explicabo iusto exercitationem eaque quae non, quia illum, voluptate nihil ipsum officia.</p>         
+                 <p class="rate">
+                    <span>$90.00 /</span> Per Night
+                 </p>
+                 <button type="button" class="btn">book now</button>
+            </div>
+        </article>
+    
+    
+        <article class="room">
+            <div class="room-image">
+                <img src="images/room3.jpg" alt="room image">
+            </div>
+            <div class="room-text">
+                <h3>Luxury Rooms</h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                    <li>
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                    <li>
+                        <i class="fas fa-arrow-alt-circle-right"></i>
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta reiciendis corrupti officiis accusamus rem, porro a hic neque enim quidem libero molestias, fuga voluptatibus quasi fugit nobis quis eaque, facere blanditiis ab iusto voluptatem. Libero necessitatibus dignissimos voluptates error laudantium!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam tempore ex earum quos aliquid esse sequi illo. Officiis explicabo iusto exercitationem eaque quae non, quia illum, voluptate nihil ipsum officia.</p>         
+                 <p class="rate">
+                    <span>$90.00 /</span> Per Night
+                 </p>
+                 <button type="button" class="btn">book now</button>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+
+<section class="customers" id="customers">
+    <div class="sec-width">
+        <div class="title">
+            <h2>customers</h2>
+        </div>
+        <div class="customers-container">
+
+            <div class="customer">
+                <div class="rating">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                </div>
+                <h3>We Loved it</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati recusandae corporis earum suscipit ex magnam rerum, voluptatem natus nisi impedit. Quam reiciendis culpa qui doloribus!</p>
+            <img src="images/cx1.jpg" alt="customer image">
+            <span>Customer Name, Country</span>
+            </div>
+
+
+            <div class="customer">
+                <div class="rating">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                </div>
+                <h3>Comfortable Living</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati recusandae corporis earum suscipit ex magnam rerum, voluptatem natus nisi impedit. Quam reiciendis culpa qui doloribus!</p>
+            <img src="images/cx3.jpg" alt="customer image">
+            <span>Customer Name, Country</span>
+            </div>
+
+
+            <div class="customer">
+                <div class="rating">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                </div>
+                <h3>Nice Place</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati recusandae corporis earum suscipit ex magnam rerum, voluptatem natus nisi impedit. Quam reiciendis culpa qui doloribus!</p>
+            <img src="images/cx2.jpg" alt="customer image">
+            <span>Customer Name, Country</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <div>
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil fugit, maxime consectetur cumque beatae iste harum quod autem dolorem impedit.</p>
+             <ul class="social-icons">
+                <li class="flex">
+                    <i class="fa fa-twitter fa-2x"></i>
+                </li>
+                <li class="flex">
+                    <i class="fa fa-facebook fa-2x"></i>
+                </li>
+                <li class="flex">
+                    <i class="fa fa-instagram fa-2x"></i>
+                </li>
+             </ul>       
+        </div>
+
+       <div>
+        <h2>Useful Links</h2>
+        <a href="#">Blog</a>
+        <a href="#">Rooms</a>
+        <a href="#">Subscription</a>
+        <a href="#">Gift Card</a>
+       </div>
+
+       <div>
+        <h2>Privacy</h2>
+        <a href="#">Career</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Services</a>
+       </div>
+
+      <div>
+        <h2>Have A Question</h2>
+        <div class="contact-item">
+            <span>
+                <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <span>
+                204 Rajpur Road, Dehradun, Uttrakhand, India
+            </span>
+        </div>
+        <div class="contact-item">
+            <span>
+                <i class="fas fa-phone-alt"></i>
+            </span>
+            <span>
+                +91 7546 8888 456
+            </span>
+        </div>
+        <div class="contact-item">
+            <span>
+                <i class="fas fa-envelope"></i>
+            </span>
+            <span>
+                info@domain.com
+            </span>
+        </div>
+      </div>
+    </div>
+</footer>
+
+<script src="javascript/script.js"></script>
+</body>
+
+</html>
